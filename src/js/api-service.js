@@ -4,7 +4,7 @@ export default class NewsApiService {
   constructor() {
     this.searchQuery = '';
     this.page = 1;
-    this.PER_PAGE = 40;
+    this.PER_PAGE = 25;
   }
   async fetchGallery() {
     const axiosOptions = {
